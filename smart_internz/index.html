@@ -1,569 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div class="main-container">
-   
-    <nav class="navbar navbar-expand-lg navbar-light bg-grey nav-bg-color fixed-top header-nav">
-        <div class="container-fluid d-flex justify-content-between header-nav">
-            <div>
-                <a class="navbar-brand" style="color:white;" href="#"><img src="images/Logo SmartInternz.png" alt="Logo"></a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link nav-items-style" aria-current="page" href="#">Career Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-items-style" href="#">Guided Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-items-style" href="#">Challenges</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-items-style" href="">Internships</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex flex-row">
-                <a class="nav-link nav-items-style" href=""><img src="images/CART.png" alt="Cart"></a>
-                <a class="nav-link nav-items-style" href=""><img src="images/PROFILE.png" alt="Profile"></a>
-                <a class="nav-link nav-items-style" href=""><img src="images/FLAG.png" alt="Flag"></a>
-                <a class="menu-icon" href=""><i class="fa fa-bars" id="bars"></i></a>
-            </div>
-        </div>
-    </nav>
-    
+    <div class="main-container">
 
-
-    <div class="header-container">
-        <div class="header-content">
-            <h1 class="header-heading">
-                Freshman to Developer
-            </h1>
-            <p class="header-para"> BUILD <span class="header-span">REAL-WORLD PROJECTS, </span>COLLABORATE WITH <span class="header-span">MENTORS</span> AND ACCESS <span class="header-span">GLOBAL INTERNSHIPS</span></p>
-            <div class="button-container">
-                <div class="career-button">
-                    <span class="">
-                        Choose A Career Plan
-                    </span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey nav-bg-color fixed-top header-nav">
+            <div class="container-fluid d-flex justify-content-between header-nav">
+                <div>
+                    <a class="navbar-brand" style="color:white;" href="#"><img src="images/Logo SmartInternz.png"
+                            alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-                <div class="group-24">
-                    <span class="project-button-1">
-                        Explore Guided Projects
-                    </span>
+                <div>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-items-style" aria-current="page" href="#">Career Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items-style" href="#">Guided Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items-style" href="#">Challenges</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items-style" href="">Internships</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-row">
+                    <a class="nav-link nav-items-style" href=""><img src="images/CART.png" alt="Cart"></a>
+                    <a class="nav-link nav-items-style" href=""><img src="images/PROFILE.png" alt="Profile"></a>
+                    <a class="nav-link nav-items-style" href=""><img src="images/FLAG.png" alt="Flag"></a>
+                    <a class="menu-icon" href=""><i class="fa fa-bars" id="bars"></i></a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="header-container">
+            <div class="header-content">
+                <h1 class="header-heading">
+                    Freshman to Developer
+                </h1>
+                <p class="header-para"> BUILD <span class="header-span">REAL-WORLD PROJECTS, </span>COLLABORATE WITH
+                    <span class="header-span">MENTORS</span> AND ACCESS <span class="header-span">GLOBAL
+                        INTERNSHIPS</span></p>
+                <div class="button-container">
+                    <div class="career-button">
+                        <span class="">
+                            Choose A Career Plan
+                        </span>
+                    </div>
+                    <div class="group-24">
+                        <span class="project-button-1">
+                            Explore Guided Projects
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    
-    <div class="alumni-container">
-        
-        <ul class="d-flex flex-row alumini-style">
-            <li><img src="images/Our alumni work at_.png" alt="Our alumni work at_">
-            </li>
-            <li class="alumini-style"><img src="images/g18.png"/></li>
-            <li  class="alumini-style"><img src="images/Group 17.png"/></li>
-            <li  class="alumini-style"><img src="images/Group 18.png"/></li>
-            <li  class="alumini-style"><img src="images/Group 19.png"/></li>
-            <li  class="alumini-style"><img src="images/Group 21 (1).png"/></li>
-            <li  class="alumini-style"><img src="images/Group 21.png"/></li>
-            <li  class="alumini-style"><img src="images/IBM 1.png"/></li>
-            <li  class="alumini-style"><img src="images/Group 22.png"/></li>
-            <li class="alumini-style"><img src="images/Group-alumni.png"/></li>
-            
-        </ul>
-    </div>
 
 
-    <div class="journey-section">
-        <div class="journey-content">
-            <h1 class="journey-heading">THE JOURNEY</h1>
-            <p class="journey-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque incidunt adipisci ut, optio, eos autem, repellendus excepturi aliquam cum officiis porro quibusdam totam voluptatum? Dolor aspernatur laudantium sunt architecto eum!</p>
-        </div>
-            <div class="icon-container" >
-                <div class="icon-align">
-                <img class="icon-img" src="images/Group.png"/>
-                <p class="icon-p">JOIN A CAREER PROGRAM</p>
-            </div>
-            <div class="icon-align">
-                <img class="icon-img" src="images/Boss is looking at a resume.png"/>
-                <p class="icon-p">SELECT A JOB ROLE</p>
-            </div>
-            <div class="icon-align">
-                <img class="icon-img" src="images/Learning_4.png"/>
-                <p class="icon-p">BUILD A MENTOR GUIDED PROJECTS</p>
-            </div>
-            <div class="icon-align">
-                <img class="icon-img" src="images/Online speech_3.png"/>
-                <p class="icon-p">ACCESS REMOTE INTERNSHIPS</p>
-            </div>
+        <div class="alumni-container">
 
-        </div>
-    </div>
+            <ul class="d-flex flex-row alumini-style">
+                <li><img src="images/Our alumni work at_.png" alt="Our alumni work at_">
+                </li>
+                <li class="alumini-style"><img src="images/g18.png" /></li>
+                <li class="alumini-style"><img src="images/Group 17.png" /></li>
+                <li class="alumini-style"><img src="images/Group 18.png" /></li>
+                <li class="alumini-style"><img src="images/Group 19.png" /></li>
+                <li class="alumini-style"><img src="images/Group 21 (1).png" /></li>
+                <li class="alumini-style"><img src="images/Group 21.png" /></li>
+                <li class="alumini-style"><img src="images/IBM 1.png" /></li>
+                <li class="alumini-style"><img src="images/Group 22.png" /></li>
+                <li class="alumini-style"><img src="images/Group-alumni.png" /></li>
 
-
-
-    <div class="video-section">
-        <div class="video-content">
-          <h1 class="video-heading">
-          HOW OUR PLATFORM WORKS
-          </h1>
-        
-          <p class="video-para">
-          Level-up your skills by solving real-world problems under the guidance of mentors and <br/> Showcase your experience to companies for global internships</p>
-        </div>
-
-        <div class="main-video-container">
-        <div>
-            <img src="images/Video1 (4).png"/>
-        </div>
-
-          <div class="video-content-container">
-            <div class="smartinternz-platform">
-           <h1 class="smart-heading">Smartinternz platform</h1>
-           <p class="smart-para"> Project-based learning &amp; remote internship platform to prepare the students for the industry. it offers real-world projects in a company-like environment to build the industry needed skills.<br />
-           </p> 
-            </div>
-           
-          
-            <div class="timestamps">
-           <h1 class="smart-heading"> TIMESTAMPS:</h1>
-           
-            <p class="time-para">
-            00:00 - Intro<br />
-            00:32 - Who we are<br />
-            02:14 - What is Career Program?<br />
-            04:40 - What is a guided project?<br />
-            06:02 - why should you choose us?<br />
-            06:50 - Conclusion
-            </p>
-        </div>
-           <h1 class="career-heading-1">EXPLORE CAREER PROGRAMS HERE</h1>
-            
-          
-        </div>
-      </div>
-
-      <div class="mini-videos">
-        <img  class="mi-video" src="images/Video1 (3).png"/>
-        <img  class="mi-video" src="images/Video1.png"/>
-        <img  class="mi-video" src="images/Video1 (1).png"/>
-        <img  class="mi-video" src="images/Video1 (2).png"/>
-        
-         
-      </div>
-
-      </div>
-
-
-
-      <div class="rank-section">
-        <div class="rank-content">
-            <h1 class="rank-heading">JOIN THE RANKS OF STUDENTS AROUND THE WORLD</h1>
-            <P class="rank-para">At Forage, EveryStudent Has A Chance To Get Ahead.Build Your Resume,Experience What Real <br/>Work Looks Like And Learn Critical Skills,All Amongst
-                The Best Students Across The World
-            </P>
-
-        </div>
-        <div class="number-container">
-            <div class="d-flex flex-row">
-            <img class="line-img" src="images/Line 4.png"/>
-            <div>
-                <h1 class="number-heading">200K +</h1>
-                <div class="d-flex flex-row">
-                <img class="vector-img" src="images/Vector.png"/>
-                <p class="number-para">Student Enrollments</p>
-            </div>
-            </div>
-
-        </div>
-
-        <div class="d-flex flex-row">
-            <img class="line-img" src="images/Line 4.png"/>
-            <div>
-                <h1 class="number-heading">2000 +</h1>
-                <div class="d-flex flex-row">
-                <img class="vector-img" src="images/Group 26.png"/>
-                <p class="number-para">Project Templates</p>
-            </div>
-            </div>
-
-        </div>
-
-        <div class="d-flex flex-row">
-            <img class="line-img" src="images/Line 4.png"/>
-            <div>
-                <h1 class="number-heading">250K +</h1>
-                <div class="d-flex flex-row">
-                <img class="vector-img" src="images/Group-icon.png"/>
-                <p class="number-para">Mentoring-hours</p>
-            </div>
-            </div>
-
-        </div>
-
-        <div class="d-flex flex-row">
-            <img class="line-img" src="images/Line 4.png"/>
-            <div>
-                <h1 class="number-heading">12</h1>
-                <div class="d-flex flex-row">
-                <img class="vector-img" src="images/Vector (1).png"/>
-                <p class="number-para">Emerging Job Roles</p>
-            </div>
-            </div>
-
-        </div>
-    </div>
-
-      </div>
-
-
-      <div class="career-program-section">
-        <div class="career-content">
-            <h1 class="career-heading">
-                CAREER READINESS PROGRAMS
-            </h1>
-            <P class="career-para">
-                let us Transform you from fresher to experienced
-            </P>
-
-        </div>
-
-        <div class="course-container">
-            <img src="images/Career Program (1).png"/>
-            <img src="images/Career Program.png"/>
-            <img src="images/Career Program (3).png"/>
-
-        </div>
-
-      </div>
-    
-
-      <div class="career-program-section">
-        <div class="career-content">
-            <h1 class="career-heading">
-                Guided Projects
-            </h1>
-            <P class="career-para">
-                Build Practical Skills Through Hands-On Projects Supported By Mentors
-            </P>
-
-        </div>
-
-        <div class="course-container">
-            <div class="first-project">
-                <h1 class="project-heading">Car Performance Prediction<br/>
-                Using Machine Learning</h1>
-                <img src="images/rating Time Difficulty (9).png"/>
-                <p class="project-para">Predict The Performance Of a Car to<br/> Improve
-               certain behaviour of the veicle and thus increase efficienct using Machine <br/> Learning </p>
-                <div class="d-flex flex-row">
-               <button class="project-button">Python</button>
-               <button class="project-button">Data PreProcessing Techniques</button>
-              </div>
-              <div class="d-flex flex=row">
-               <button class="project-button">Machine Learning</button>
-               <button class="project-button">Flask Integration</button>
-            </div> 
-            </div>
-
-            <div class="first-project">
-                <h1 class="project-heading">Car Performance Prediction<br/>
-                Using Machine Learning</h1>
-                <img src="images/rating Time Difficulty (9).png"/>
-                <p class="project-para">Predict The Performance Of a Car to<br/> Improve
-               certain behaviour of the veicle and thus increase efficienct using Machine <br/> Learning </p>
-                <div class="d-flex flex-row">
-               <button class="project-button">Python</button>
-               <button class="project-button">Data PreProcessing Techniques</button>
-              </div>
-              <div class="d-flex flex=row">
-               <button class="project-button">Machine Learning</button>
-               <button class="project-button">Flask Integration</button>
-            </div> 
-            </div>
-
-            <img src="images/Group 70.png"/>
-          
-        </div>
-
-    
-      </div>
-
-
-      <div class="internship-section">
-        <div class="internship-container">
-            <h1 class="internship-heading">REMOTE INTERNSHIPS</h1>
-            <p class="internship-para">Access 1000+ Trending Tech-Internships Globally</p>
-            <button class="internship-button">Discover Internships</button>
-        
-
-
-        <div class="courses-cont">
-            <button class="course-btn">Data Preprcocessing Techniques</button>
-            <button class="course-btn">Python</button>
-            <button class="course-btn">Flash Integration</button>
-            <button class="course-btn">Machine Learning</button>
-            <button class="course-btn">Data PreProcessing Techniques</button>
-            <button class="course-btn">python</button>
-            <button class="course-btn">python</button>
-            <button class="course-btn">Machine Learning</button>
-            <button class="course-btn">python</button>
-            <button class="course-btn">Data PreProcessing Techniques</button>
-            <button class="course-btn">Flash Integration</button>
-            <button class="course-btn">Machine Learning</button>
-            <button class="course-btn">Integration</button>
-        
-        </div>
-    </div>
-      </div>
-    
-
-    <div class="challenges-section">
-        <div class="challenge-container">
-            <div class="work-container">
-                <img src="images/Challenge 3.png"/>
-                <img src="images/Challenge 5.png"/>
-                <img src="images/Challenge 4.png"/>
-                                  
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="review-section">
-        <div class="review-content">
-        <img src="images/Testimonials.png"/>
-            </div>
-
-    </div>
-
-    <div class="faq-section">
-        <div class="faq-content">
-            <h1 class="faq-heading">F.A.Q.</h1>
-            <P class="faq-para">Find Answers To the Most Popular Questions</P>
-        
-        </div>
-
-        <div class="faq-container">
-            <div>
-            <hr style="border-width:3px;"/>
-            <div class="d-flex flex-row justify-content-between">
-            <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
-            <img class="plus-img" src="images/ant-design_plus-outlined.png"/></div>
-        </div>
-
-        <div>
-            <hr style="border-width:3px;"/>
-            <div class="d-flex flex-row justify-content-between">
-            <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
-            <img class="plus-img" src="images/ant-design_plus-outlined.png"/></div>
-        </div>
-
-        <div>
-            <hr style="border-width:3px;"/>
-            <div class="d-flex flex-row justify-content-between">
-            <h1 class="question-head">QUESTION IS HERE  QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
-            <img class="plus-img" src="images/ant-design_plus-outlined.png"/></div>
-        </div>
-
-        <div>
-            <hr style="border-width:3px;"/>
-            <div class="d-flex flex-row justify-content-between">
-            <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
-            <img class="plus-img" src="images/ant-design_plus-outlined.png"/></div>
-        </div>
-
-        <div>
-            <hr style="border-width:3px;"/>
-            <div class="d-flex flex-row justify-content-between">
-            <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
-            <img class="plus-img" src="images/ant-design_plus-outlined (1).png"/></div>
-            <p class="ans-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, impedit doloribus exercitationem magni assumenda repudiandae tenetur mollitia 
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ut ipsum tempora modi sit delectus omnis magni aspernatur accusantium repudiandae 
-                eaque 
-                autem nostrum quo laudantium praesentium quae officia, saepe consequuntur?veritatis quos esse dolore quae recusandae dicta sed modi. Alias iusto totam eum.</p>
-        </div>
-
-        
-
-        <div>
-            <hr style="border-width:3px;"/>
-            <div class="d-flex flex-row justify-content-between">
-            <h1 class="question-head">QUESTION IS HERE  QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
-            <img class="plus-img" src="images/ant-design_plus-outlined.png"/></div>
-        </div>
-        <hr style="border-width:3px;"/>
-        </div>
-       
-    
-    </div>
-
-
-    <div class="experience-section">
-        <div class="experience-content">
-            <h1 class="exp-heading">FIX YOUR CAREER POSITION<BR/>
-            ON GRAPH OF OPPORTUNITIES</h1>
-            <img style="padding-bottom:30px;" src="images/Group 72.png"/>
-            <div class="button-container">
-                <div class="career-button">
-                    <span class="">
-                        Choose A Career Plan
-                    </span>
-                </div>
-                <div class="group-24">
-                    <span class="project-button-1" style="color:#62A8BE;">
-                        Explore Guided Projects
-                    </span>
-                </div>
-            </div>
-
-        </div>
-        <div>
-            <img src="images/Graph-123.png"/>
-        </div>
-         
-    </div>
-
-    <footer>
-
-        <div class="footer-2__area footer-2__plr  fix" style="color:#EFEFEF; padding-bottom:20px;">
-        
-        <div class="footer-row" >
-        <div class="d-flex row justify-content-between">
-
-          <div class="about-section-footer">
-            <h1 class="about-section-heading">ABOUT SMARTINTERNZ</h1>
-            <P class="about-section-para">About Us</P>
-            <p class="about-section-para">Our Team</p>
-            <p class="newsletter-heading">Sign Up for NewsLetters Here</p>
-    
-          </div>
-        
-        <div class="">
-        <div class="footer-2__widget product-section-footer">
-        <h4  class="about-section-heading">OUR PRODUCTS</h4>
-        <div class="footer-2__menu-list">
-        <ul>
-        <li class="about-section-para"><a href="">Career-Readiness Programs</a></li>
-        <li class="about-section-para"><a href="">Guided Projects</a></li>
-        <li class="about-section-para"><a href="">Challenges</a></li>
-        <li class="about-section-para"><a href="">Internships</a></li>
-        
-        </ul>
-        </div>
-        </div>
-        </div>
-
-
-        <div class="">
-            <div class="footer-2__widget help-section-footer">
-            <h4  class="about-section-heading">HELP & INFORMATION</h4>
-            <div class="footer-2__menu-list">
-            <ul>
-            <li class="about-section-para"><a href="">For Recruiters</a></li>
-            <li class="about-section-para"><a href="">For Educators</a></li>
-            <li class="about-section-para"><a href="">F.A.Q.</a></li>
-            
             </ul>
-            </div>
-            </div>
-            </div>
-        
-       
-        <div class="">
-        <div class="footer-2__widget">
-        <h4 class="about-section-heading">Contact Us</a></h4>
-        <div class="footer-2__content">
-        <div class="footer__number-wrapper align-items-center">
-            <div class="footer__number-info about-section-para">
-                <a  href="">  info@thesmartbridge.com</a>
-                </div>   
-        <div class="footer__number-info about-section-para">
-        <a  href="">   Plot No 132,2nd Floor,HMT Nagar,Nacharam<br/>
-        Main Road,Hyderabad 5000076 </a>
-        </div>
-       
-        <div><img class="social-icon-img" src="images/Group 61.png"/></div>
-        </div>
-        
-        </div>
-        </div>
-        </div>
-       
-        </div>
         </div>
 
 
-<div class="copyright-section">
-    <hr  style="border-width:3px;"/>
-
-    <div class="copyright-content">
-        <div>
-        <img style="padding-left:170px;" src="images/smartbridge-White 1.png"/></div>
-
-        <div class="copyright__item_1 text-center" >
-            <span><a style="color:#A1A9B2; padding-left:10px;" href="">Privacy Policy |</a></span>
-            <span><a style="color:#A1A9B2;padding-left:10px;" href="">Terms &amp; Condition |</a></span>
-            <span><a style="color:#A1A9B2;padding-left:10px;" href="">Copyright © 2020 Smartinternz</a></span>
+        <div class="journey-section">
+            <div class="journey-content">
+                <h1 class="journey-heading">THE JOURNEY</h1>
+                <p class="journey-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque incidunt
+                    adipisci ut, optio, eos autem, repellendus excepturi aliquam cum officiis porro quibusdam totam
+                    voluptatum? Dolor aspernatur laudantium sunt architecto eum!</p>
             </div>
+            <div class="icon-container">
+                <div class="icon-align">
+                    <img class="icon-img" src="images/Group.png" />
+                    <p class="icon-p">JOIN A CAREER PROGRAM</p>
+                </div>
+                <div class="icon-align">
+                    <img class="icon-img" src="images/Boss is looking at a resume.png" />
+                    <p class="icon-p">SELECT A JOB ROLE</p>
+                </div>
+                <div class="icon-align">
+                    <img class="icon-img" src="images/Learning_4.png" />
+                    <p class="icon-p">BUILD A MENTOR GUIDED PROJECTS</p>
+                </div>
+                <div class="icon-align">
+                    <img class="icon-img" src="images/Online speech_3.png" />
+                    <p class="icon-p">ACCESS REMOTE INTERNSHIPS</p>
+                </div>
+
             </div>
+        </div>
+
+
+
+        <div class="video-section">
+            <div class="video-content">
+                <h1 class="video-heading">
+                    HOW OUR PLATFORM WORKS
+                </h1>
+
+                <p class="video-para">
+                    Level-up your skills by solving real-world problems under the guidance of mentors and <br />
+                    Showcase your experience to companies for global internships</p>
+            </div>
+
+            <div class="main-video-container">
+                <div>
+                    <img src="images/Video1 (4).png" />
+                </div>
+
+                <div class="video-content-container">
+                    <div class="smartinternz-platform">
+                        <h1 class="smart-heading">Smartinternz platform</h1>
+                        <p class="smart-para"> Project-based learning &amp; remote internship platform to prepare the
+                            students for the industry. it offers real-world projects in a company-like environment to
+                            build the industry needed skills.<br />
+                        </p>
+                    </div>
+
+
+                    <div class="timestamps">
+                        <h1 class="smart-heading"> TIMESTAMPS:</h1>
+
+                        <p class="time-para">
+                            00:00 - Intro<br />
+                            00:32 - Who we are<br />
+                            02:14 - What is Career Program?<br />
+                            04:40 - What is a guided project?<br />
+                            06:02 - why should you choose us?<br />
+                            06:50 - Conclusion
+                        </p>
+                    </div>
+                    <h1 class="career-heading-1">EXPLORE CAREER PROGRAMS HERE</h1>
+
+
+                </div>
+            </div>
+
+            <div class="mini-videos">
+                <img class="mi-video" src="images/Video1 (3).png" />
+                <img class="mi-video" src="images/Video1.png" />
+                <img class="mi-video" src="images/Video1 (1).png" />
+                <img class="mi-video" src="images/Video1 (2).png" />
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="rank-section">
+            <div class="rank-content">
+                <h1 class="rank-heading">JOIN THE RANKS OF STUDENTS AROUND THE WORLD</h1>
+                <P class="rank-para">At Forage, EveryStudent Has A Chance To Get Ahead.Build Your Resume,Experience What
+                    Real <br />Work Looks Like And Learn Critical Skills,All Amongst
+                    The Best Students Across The World
+                </P>
+
+            </div>
+            <div class="number-container">
+                <div class="d-flex flex-row">
+                    <img class="line-img" src="images/Line 4.png" />
+                    <div>
+                        <h1 class="number-heading">200K +</h1>
+                        <div class="d-flex flex-row">
+                            <img class="vector-img" src="images/Vector.png" />
+                            <p class="number-para">Student Enrollments</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-row">
+                    <img class="line-img" src="images/Line 4.png" />
+                    <div>
+                        <h1 class="number-heading">2000 +</h1>
+                        <div class="d-flex flex-row">
+                            <img class="vector-img" src="images/Group 26.png" />
+                            <p class="number-para">Project Templates</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-row">
+                    <img class="line-img" src="images/Line 4.png" />
+                    <div>
+                        <h1 class="number-heading">250K +</h1>
+                        <div class="d-flex flex-row">
+                            <img class="vector-img" src="images/Group-icon.png" />
+                            <p class="number-para">Mentoring-hours</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-row">
+                    <img class="line-img" src="images/Line 4.png" />
+                    <div>
+                        <h1 class="number-heading">12</h1>
+                        <div class="d-flex flex-row">
+                            <img class="vector-img" src="images/Vector (1).png" />
+                            <p class="number-para">Emerging Job Roles</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="career-program-section">
+            <div class="career-content">
+                <h1 class="career-heading">
+                    CAREER READINESS PROGRAMS
+                </h1>
+                <P class="career-para">
+                    let us Transform you from fresher to experienced
+                </P>
+
+            </div>
+
+            <div class="course-container">
+
+                <div class="beginner-card">
+                    <h1 class="beginner-heading">Beginner</h1>
+                    <h1 class="price-heading">INR. 4999</h1>
+                    <ul style="padding-bottom:30px;">
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 2 Basic Projects</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 1 Intermediate Project</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 12 Hrs. Of Mentpring</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 1 Coding Assessment</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 3 Months Duration</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> Access To Challenges On The Platform</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> Access To Intrnships On The Platform</li>
+                    </ul>
+                   <button class="choose-btn">Choose Beginner</button>
+                </div>
+
+                <div class="beginner-card-1">
+                    <h1 class="beginner-heading">Practitioner</h1>
+                    <h1 class="price-heading">INR. 9999</h1>
+                    <ul style="padding-bottom:40px;">
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> 2 Basic Projects</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> 2 Intermediate Project</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> 1 Advanced Project</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> 24 Hrs. Of Mentpring</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> 2 Coding Assessment</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> 6 Months Duration</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> Access To Challenges On The Platform</li>
+                        <li class="beginner-list-1"><img class="tick-img" src="images/subway_tick.png"/> Access To Intrnships On The Platform</li>
+                    </ul>
+                   <button class="choose-btn-1">Choose Beginner</button>
+                </div>
+
+
+
+
+                <div class="beginner-card-2">
+                    <h1 class="beginner-heading">Developer</h1>
+                    <h1 class="price-heading">INR. 19999</h1>
+                    <ul style="padding-bottom:30px;">
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 4 Basic Projects</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 2 Intermediate Project</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 2 Advanced Projects</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 36 Hrs. Of Mentpring</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 4 Coding Assessment</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> 12 Months Duration</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> Access To Challenges On The Platform</li>
+                        <li class="beginner-list"><img class="tick-img" src="images/subway_tick.png"/> Access To Intrnships On The Platform</li>
+                    </ul>
+                   <button class="choose-btn">Choose Beginner</button>
+                </div>
+
+            </div>
+
+           
+
+        </div>
+
+
+        <div class="career-program-section">
+            <div class="career-content">
+                <h1 class="career-heading">
+                    Guided Projects
+                </h1>
+                <P class="career-para">
+                    Build Practical Skills Through Hands-On Projects Supported By Mentors
+                </P>
+
+            </div>
+
+            <div class="course-container">
+                <div class="first-project">
+                    <h1 class="project-heading">Car Performance Prediction<br />
+                        Using Machine Learning</h1>
+                    <img src="images/rating Time Difficulty (9).png" />
+                    <p class="project-para">Predict The Performance Of a Car to<br /> Improve
+                        certain behaviour of the veicle and thus increase efficienct using Machine <br /> Learning </p>
+                    <div class="d-flex flex-row">
+                        <button class="project-button">Python</button>
+                        <button class="project-button">Data PreProcessing Techniques</button>
+                    </div>
+                    <div class="d-flex flex=row">
+                        <button class="project-button">Machine Learning</button>
+                        <button class="project-button">Flask Integration</button>
+                    </div>
+                </div>
+
+                <div class="first-project">
+                    <h1 class="project-heading">Car Performance Prediction<br />
+                        Using Machine Learning</h1>
+                    <img src="images/rating Time Difficulty (9).png" />
+                    <p class="project-para">Predict The Performance Of a Car to<br /> Improve
+                        certain behaviour of the veicle and thus increase efficienct using Machine <br /> Learning </p>
+                    <div class="d-flex flex-row">
+                        <button class="project-button">Python</button>
+                        <button class="project-button">Data PreProcessing Techniques</button>
+                    </div>
+                    <div class="d-flex flex=row">
+                        <button class="project-button">Machine Learning</button>
+                        <button class="project-button">Flask Integration</button>
+                    </div>
+                </div>
+
+                <img src="images/Group 70.png" />
+
+            </div>
+
+
+        </div>
+
+
+        <div class="internship-section">
+            <div class="internship-container">
+                <h1 class="internship-heading">REMOTE INTERNSHIPS</h1>
+                <p class="internship-para">Access 1000+ Trending Tech-Internships Globally</p>
+                <button class="internship-button">Discover Internships</button>
+
+
+
+                <div class="courses-cont">
+                    <button class="course-btn">Data Preprcocessing Techniques</button>
+                    <button class="course-btn">Python</button>
+                    <button class="course-btn">Flash Integration</button>
+                    <button class="course-btn">Machine Learning</button>
+                    <button class="course-btn">Data PreProcessing Techniques</button>
+                    <button class="course-btn">python</button>
+                    <button class="course-btn">python</button>
+                    <button class="course-btn">Machine Learning</button>
+                    <button class="course-btn">python</button>
+                    <button class="course-btn">Data PreProcessing Techniques</button>
+                    <button class="course-btn">Flash Integration</button>
+                    <button class="course-btn">Machine Learning</button>
+                    <button class="course-btn">Integration</button>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="challenges-section">
+            <div class="challenge-container">
+                <div class="work-container">
+                    <img src="images/Challenge 3.png" />
+                    <img src="images/Challenge 5.png" />
+                    <img src="images/Challenge 4.png" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="review-section">
+            <div class="review-content">
+                <img src="images/Testimonials.png" />
+            </div>
+
+        </div>
+
+        <div class="faq-section">
+            <div class="faq-content">
+                <h1 class="faq-heading">F.A.Q.</h1>
+                <P class="faq-para">Find Answers To the Most Popular Questions</P>
+
+            </div>
+
+            <div class="faq-container">
+                <div>
+                    <hr style="border-width:3px;" />
+                    <div class="d-flex flex-row justify-content-between">
+                        <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
+                        <img class="plus-img" src="images/ant-design_plus-outlined.png" />
+                    </div>
+                </div>
+
+                <div>
+                    <hr style="border-width:3px;" />
+                    <div class="d-flex flex-row justify-content-between">
+                        <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
+                        <img class="plus-img" src="images/ant-design_plus-outlined.png" />
+                    </div>
+                </div>
+
+                <div>
+                    <hr style="border-width:3px;" />
+                    <div class="d-flex flex-row justify-content-between">
+                        <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE
+                            QUESTION IS HERE?</h1>
+                        <img class="plus-img" src="images/ant-design_plus-outlined.png" />
+                    </div>
+                </div>
+
+                <div>
+                    <hr style="border-width:3px;" />
+                    <div class="d-flex flex-row justify-content-between">
+                        <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
+                        <img class="plus-img" src="images/ant-design_plus-outlined.png" />
+                    </div>
+                </div>
+
+                <div>
+                    <hr style="border-width:3px;" />
+                    <div class="d-flex flex-row justify-content-between">
+                        <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE?</h1>
+                        <img class="plus-img" src="images/ant-design_plus-outlined (1).png" />
+                    </div>
+                    <p class="ans-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, impedit doloribus
+                        exercitationem magni assumenda repudiandae tenetur mollitia
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ut ipsum tempora modi sit
+                        delectus omnis magni aspernatur accusantium repudiandae
+                        eaque
+                        autem nostrum quo laudantium praesentium quae officia, saepe consequuntur?veritatis quos esse
+                        dolore quae recusandae dicta sed modi. Alias iusto totam eum.</p>
+                </div>
+
+
+
+                <div>
+                    <hr style="border-width:3px;" />
+                    <div class="d-flex flex-row justify-content-between">
+                        <h1 class="question-head">QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE QUESTION IS HERE
+                            QUESTION IS HERE?</h1>
+                        <img class="plus-img" src="images/ant-design_plus-outlined.png" />
+                    </div>
+                </div>
+                <hr style="border-width:3px;" />
+            </div>
+
+
+        </div>
+
+
+        <div class="experience-section">
+            <div class="experience-content">
+                <h1 class="exp-heading">FIX YOUR CAREER POSITION<BR />
+                    ON GRAPH OF OPPORTUNITIES</h1>
+                <img style="padding-bottom:30px;" src="images/Group 72.png" />
+                <div class="button-container">
+                    <div class="career-button">
+                        <span class="">
+                            Choose A Career Plan
+                        </span>
+                    </div>
+                    <div class="group-24">
+                        <span class="project-button-1" style="color:#62A8BE;">
+                            Explore Guided Projects
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="images/Graph-123.png" />
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="footer-2__area footer-2__plr  fix" style="color:#EFEFEF; padding-bottom:20px;">
+
+                <div class="footer-row">
+                    <div class="d-flex row justify-content-between">
+
+                        <div class="about-section-footer">
+                            <h1 class="about-section-heading">ABOUT SMARTINTERNZ</h1>
+                            <P class="about-section-para">About Us</P>
+                            <p class="about-section-para">Our Team</p>
+                            <p class="newsletter-heading">Sign Up for NewsLetters Here</p>
+
+                        </div>
+
+                        <div class="">
+                            <div class="footer-2__widget product-section-footer">
+                                <h4 class="about-section-heading">OUR PRODUCTS</h4>
+                                <div class="footer-2__menu-list">
+                                    <ul>
+                                        <li class="about-section-para"><a href="">Career-Readiness Programs</a></li>
+                                        <li class="about-section-para"><a href="">Guided Projects</a></li>
+                                        <li class="about-section-para"><a href="">Challenges</a></li>
+                                        <li class="about-section-para"><a href="">Internships</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="">
+                            <div class="footer-2__widget help-section-footer">
+                                <h4 class="about-section-heading">HELP & INFORMATION</h4>
+                                <div class="footer-2__menu-list">
+                                    <ul>
+                                        <li class="about-section-para"><a href="">For Recruiters</a></li>
+                                        <li class="about-section-para"><a href="">For Educators</a></li>
+                                        <li class="about-section-para"><a href="">F.A.Q.</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="">
+                            <div class="footer-2__widget">
+                                <h4 class="about-section-heading">Contact Us</a></h4>
+                                <div class="footer-2__content">
+                                    <div class="footer__number-wrapper align-items-center">
+                                        <div class="footer__number-info about-section-para">
+                                            <a href=""> info@thesmartbridge.com</a>
+                                        </div>
+                                        <div class="footer__number-info about-section-para">
+                                            <a href=""> Plot No 132,2nd Floor,HMT Nagar,Nacharam<br />
+                                                Main Road,Hyderabad 5000076 </a>
+                                        </div>
+
+                                        <div><img class="social-icon-img" src="images/Group 61.png" /></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="copyright-section">
+                    <hr style="border-width:3px;" />
+
+                    <div class="copyright-content">
+                        <div>
+                            <img style="padding-left:170px;" src="images/smartbridge-White 1.png" />
+                        </div>
+
+                        <div class="copyright__item_1 text-center">
+                            <span><a style="color:#A1A9B2; padding-left:10px;" href="">Privacy Policy |</a></span>
+                            <span><a style="color:#A1A9B2;padding-left:10px;" href="">Terms &amp; Condition |</a></span>
+                            <span><a style="color:#A1A9B2;padding-left:10px;" href="">Copyright © 2020
+                                    Smartinternz</a></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
 
     </div>
-     
-</div>
 
 
-        </div>
-        
-        
-       
-         
-        
-        </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+    </footer>
 
 
     </div>
 </body>
+
 </html>
