@@ -318,6 +318,8 @@
     padding:40px;
 
 }
+
+
 .carrer-content{
     text-align: center;
 }
@@ -338,9 +340,78 @@
 .course-container{
     display:flex;
     flex-direction: row;
-    padding-left:100px;
+    justify-content: space-between;
+    padding-left:80px;
+    padding-top:40px;
     align-items: center;
+    margin-left:30px;
+
 }
+.beginner-card{
+  background-color:white;
+  color:#35475C;
+  padding:40px;
+}
+.beginner-card-1{
+  background-color:white;
+  color:#35475C;
+  padding:40px;
+}
+.beginner-card-2{
+  background-color:white;
+  color:#35475C;
+ padding:30px;
+}
+.beginner-heading{
+  font-size:20px;
+  font-weight:bold;
+  font-family:"Roboto";
+  color:#35475C;
+}
+.price-heading{
+  font-size:40px;
+  font-weight:bold;
+  font-family:"Roboto";
+  color:#35475C;
+  padding-bottom:30px;
+}
+.beginner-list{
+  font-size:12px;
+
+}
+.beginner-list-1{
+  font-size:15px;
+}
+.tick-img{
+  padding-right:10px;
+}
+.choose-btn{
+    background-color: #808A96;
+   color:white;
+   font-weight:bold;
+    font-size:15px;
+    margin:5px;
+   text-align: center;
+   margin-left:15px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.choose-btn-1{
+  background-color:#76B4C8;
+ color:white;
+ font-weight:bold;
+  font-size:15px;
+  margin:5px;
+ text-align: center;
+ margin-left:15px;
+  padding-left:60px;
+  padding-right:60px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
 .first-project{
     background-color:white;
     margin:20px;
